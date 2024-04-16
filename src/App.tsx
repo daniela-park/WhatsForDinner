@@ -8,79 +8,79 @@ function App() {
   const dishes = [
     {
       dishName: "...",
-      dishImg: "src/assets/DishesIcon/dish.png"
+      dishImg: "src/assets/dish.png"
     },
     {
       dishName: "bibimbap",
-      dishImg: "src/assets/DishesIcon/bibimbap.png"
+      dishImg: "src/assets/bibimbap.png"
     },
     {
       dishName: "cauliflower gochujang",
-      dishImg: "src/assets/DishesIcon/cauliflower.png"
+      dishImg: "src/assets/cauliflower.png"
     },
     {
       dishName: "japchae",
-      dishImg: "src/assets/DishesIcon/japchae.png"
+      dishImg: "src/assets/japchae.png"
     },
     {
       dishName: "prato feito",
-      dishImg: "src/assets/DishesIcon/pf.png"
+      dishImg: "src/assets/pf.png"
     },
     {
       dishName: "heart of palm moqueca",
-      dishImg: "src/assets/DishesIcon/moqueca.png"
+      dishImg: "src/assets/moqueca.png"
     },
     {
       dishName: "coco & pepe pasta",
-      dishImg: "src/assets/DishesIcon/coco-and-pepe-pasta.png"
+      dishImg: "src/assets/coco-and-pepe-pasta.png"
     },
     {
       dishName: "creamy mushroom risotto",
-      dishImg: "src/assets/DishesIcon/risotto.png"
+      dishImg: "src/assets/risotto.png"
     },
     {
       dishName: "pizza",
-      dishImg: "src/assets/DishesIcon/pizza.png"
+      dishImg: "src/assets/pizza.png"
     },
     {
       dishName: "vegetable lasagna",
-      dishImg: "src/assets/DishesIcon/lasagna.png"
+      dishImg: "src/assets/lasagna.png"
     },
     {
       dishName: "miso aubergine",
-      dishImg: "src/assets/DishesIcon/aubergine.png"
+      dishImg: "src/assets/aubergine.png"
     },
     {
       dishName: "sushi",
-      dishImg: "src/assets/DishesIcon/sushi.png"
+      dishImg: "src/assets/sushi.png"
     },
     {
       dishName: "soupy noodle",
-      dishImg: "src/assets/DishesIcon/noodles.png"
+      dishImg: "src/assets/noodles.png"
     },
     {
       dishName: "chilli sen carne",
-      dishImg: "src/assets/DishesIcon/chilli-sen-carne.png"
+      dishImg: "src/assets/chilli-sen-carne.png"
     },
     {
       dishName: "corn fritter",
-      dishImg: "src/assets/DishesIcon/corn-fritter.png"
+      dishImg: "src/assets/corn-fritter.png"
     },
     {
       dishName: "menemen",
-      dishImg: "src/assets/DishesIcon/menemen.png"
+      dishImg: "src/assets/menemen.png"
     },
     {
       dishName: "dumplings",
-      dishImg: "src/assets/DishesIcon/dumplings.png"
+      dishImg: "src/assets/dumplings.png"
     },
     {
       dishName: "burger",
-      dishImg: "src/assets/DishesIcon/burger.png"
+      dishImg: "src/assets/burger.png"
     },
     {
       dishName: "McD",
-      dishImg: "src/assets/DishesIcon/mcdonalds.png"
+      dishImg: "src/assets/mcdonalds.png"
     },
   ];
 
