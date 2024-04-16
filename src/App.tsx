@@ -1,15 +1,9 @@
-import { useContext, useEffect, useState } from 'react'
+import { useState } from 'react'
 import dinnerLogo from './assets/Dinner.png'
 import './App.css'
 
 function App() {
   const [randomDishId, setRandomDishId] = useState(0)
-
-  // const backgroundContext = useContext(BackgroundContext)
-
-  // useEffect(() => {
-  //   backgroundContext.setBackground("linear-gradient(to bottom, white, #5694bf 85%, #135d9b)")
-  // }, [backgroundContext])
 
   const dishes = [
     {
