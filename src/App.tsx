@@ -8,79 +8,98 @@ function App() {
   const dishes = [
     {
       dishName: "...",
-      dishImg: "src/assets/dish.png"
+      dishImg: "./assets/dish.png",
+      imgAlt: "empty dish icon"
     },
     {
       dishName: "bibimbap",
-      dishImg: "src/assets/bibimbap.png"
+      dishImg: "./assets/bibimbap.png",
+      imgAlt: "bibimbap icon"
     },
     {
       dishName: "cauliflower gochujang",
-      dishImg: "src/assets/cauliflower.png"
+      dishImg: "./assets/cauliflower.png",
+      imgAlt: "cauliflower icon"
     },
     {
       dishName: "japchae",
-      dishImg: "src/assets/japchae.png"
+      dishImg: "./assets/japchae.png",
+      imgAlt: "japchae icon"
     },
     {
       dishName: "prato feito",
-      dishImg: "src/assets/pf.png"
+      dishImg: "./assets/pf.png",
+      imgAlt: "prato feito icon"
     },
     {
       dishName: "heart of palm moqueca",
-      dishImg: "src/assets/moqueca.png"
+      dishImg: "./assets/moqueca.png",
+      imgAlt: "moqueca icon"
     },
     {
       dishName: "coco & pepe pasta",
-      dishImg: "src/assets/coco-and-pepe-pasta.png"
+      dishImg: "./assets/coco-and-pepe-pasta.png",
+      imgAlt: "pasta icon"
     },
     {
       dishName: "creamy mushroom risotto",
-      dishImg: "src/assets/risotto.png"
+      dishImg: "./assets/risotto.png",
+      imgAlt: "risotto icon"
     },
     {
       dishName: "pizza",
-      dishImg: "src/assets/pizza.png"
+      dishImg: "./assets/pizza.png",
+      imgAlt: "pizza icon"
     },
     {
       dishName: "vegetable lasagna",
-      dishImg: "src/assets/lasagna.png"
+      dishImg: "./assets/lasagna.png",
+      imgAlt: "lasagna icon"
     },
     {
       dishName: "miso aubergine",
-      dishImg: "src/assets/aubergine.png"
+      dishImg: "./assets/aubergine.png",
+      imgAlt: "aubergine icon"
     },
     {
       dishName: "sushi",
-      dishImg: "src/assets/sushi.png"
+      dishImg: "./assets/sushi.png",
+      imgAlt: "sushi icon"
     },
     {
       dishName: "soupy noodle",
-      dishImg: "src/assets/noodles.png"
+      dishImg: "./assets/noodles.png",
+      imgAlt: "noodles icon"
     },
     {
       dishName: "chilli sen carne",
-      dishImg: "src/assets/chilli-sen-carne.png"
+      dishImg: "./assets/chilli-sen-carne.png",
+      imgAlt: "rice bowl icon"
     },
     {
       dishName: "corn fritter",
-      dishImg: "src/assets/corn-fritter.png"
+      dishImg: "./assets/corn-fritter.png",
+      imgAlt: "fritter icon"
     },
     {
       dishName: "menemen",
-      dishImg: "src/assets/menemen.png"
+      dishImg: "./assets/menemen.png",
+      imgAlt: "meneme icon"
     },
     {
       dishName: "dumplings",
-      dishImg: "src/assets/dumplings.png"
+      dishImg: "./assets/dumplings.png",
+      imgAlt: "dumplings icon"
     },
     {
       dishName: "burger",
-      dishImg: "src/assets/burger.png"
+      dishImg: "./assets/burger.png",
+      imgAlt: "burger icon"
     },
     {
       dishName: "McD",
-      dishImg: "src/assets/mcdonalds.png"
+      dishImg: "./assets/mcdonalds.png",
+      imgAlt: "Happy meal icon"
     },
   ];
 
@@ -98,7 +117,7 @@ function App() {
           Click to generate a random dish!
         </button>
         <h1>Today's dinner is {dishes[randomDishIndex].dishName}!</h1>
-        <img src={dishes[randomDishIndex].dishImg} />
+        <img src={dishes[randomDishIndex].dishImg} alt={dishes[randomDishIndex].imgAlt} />
       </div>
     </>
   )
