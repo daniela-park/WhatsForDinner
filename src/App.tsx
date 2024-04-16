@@ -3,7 +3,7 @@ import dinnerLogo from './assets/Dinner.png'
 import './App.css'
 
 function App() {
-  const [randomDishId, setRandomDishId] = useState(0)
+  const [randomDishIndex, setRandomDishIndex] = useState(0)
 
   const dishes = [
     {
@@ -84,9 +84,8 @@ function App() {
     },
   ];
 
-  var randomNum = (Math.floor(Math.random() * dishes.length));
     const handleClick = () => {
-      setRandomDishId(randomNum);
+      setRandomDishIndex(Math.floor(Math.random() * dishes.length));
     }
 
   return (
@@ -98,8 +97,8 @@ function App() {
         <button onClick={handleClick}>
           Click to generate a random dish!
         </button>
-        <h1>Today's dinner is {dishes[randomNum].dishName}!</h1>
-        <img src={dishes[randomNum].dishImg} />
+        <h1>Today's dinner is {dishes[randomDishIndex].dishName}!</h1>
+        <img src={dishes[randomDishIndex].dishImg} />
       </div>
     </>
   )
