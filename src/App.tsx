@@ -127,17 +127,16 @@ function App() {
     }
 
   return (
-    <>
+    <body>
       <div className='flexContainer'>
         <img src={dinnerLogo} alt="Plate icon" height="250px" />
-
         <button onClick={handleClick}>
           Click to generate a random dish!
         </button>
         <h1>Today's dinner is {dishes[randomDishIndex].dishName}!</h1>
         <img src={dishes[randomDishIndex].dishImg} alt={dishes[randomDishIndex].imgAlt} />
       </div>
-    </>
+    </body>
   )
 }
 
