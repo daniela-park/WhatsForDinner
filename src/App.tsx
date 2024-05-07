@@ -128,7 +128,7 @@ function App() {
 
   return (
     <body>
-      <div className='flexContainer'>
+      <div className='container'>
         <img src={dinnerLogo} alt="Plate icon" height="250px" />
         <button onClick={handleClick}>
           Click to generate a random dish!
